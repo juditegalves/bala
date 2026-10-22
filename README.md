@@ -10,7 +10,7 @@ Site do Bala: uma página estática (HTML + CSS + JS), publicada na Netlify a pa
 | Horários | `index.html`, procurar `horário a confirmar` (Alvalade e Cascais) |
 | Fotos | `assets/fotos/` (hero, burritos, tacos, bowls, snacks, ingredientes, cozinha, catering). Para trocar, substituir o ficheiro com o mesmo nome (JPG, até ~1600px de largura). Imagem de partilha: `assets/og.jpg` (1200×630) |
 | Vídeo do hero | `index.html`, bloco comentado dentro de `.hero-media` |
-| Logotipo | trocar `<span class="logo-word">bala</span>` por `<img src="/assets/logo.svg" alt="Bala">` |
+| Logotipo | `assets/logo-bala.svg` (vermelho), `assets/logo-bala-branco.svg` (rodapé), `assets/logo-bala-selo.svg` (selo completo, não usado no site) |
 | Cores e fontes | `styles.css`, bloco `:root` no topo |
 | Faixa de novidades | `index.html`, bloco `.news` |
 
