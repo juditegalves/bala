@@ -8,7 +8,7 @@ Site do Bala: uma página estática (HTML + CSS + JS), publicada na Netlify a pa
 | --- | --- |
 | Link Uber Eats Cascais | `index.html`, procurar `#uber-cascais` e colar o link da loja. O botão passa a funcionar sozinho. |
 | Horários | `index.html`, procurar `horário a confirmar` (Alvalade e Cascais) |
-| Fotos | `index.html`, cada `<div class="ph" data-ph="...">` é um placeholder. Trocar por `<img src="/assets/fotos/nome.jpg" alt="...">` |
+| Fotos | `assets/fotos/` (hero, burritos, tacos, bowls, snacks, ingredientes, cozinha, catering). Para trocar, substituir o ficheiro com o mesmo nome (JPG, até ~1600px de largura). Imagem de partilha: `assets/og.jpg` (1200×630) |
 | Vídeo do hero | `index.html`, bloco comentado dentro de `.hero-media` |
 | Logotipo | trocar `<span class="logo-word">bala</span>` por `<img src="/assets/logo.svg" alt="Bala">` |
 | Cores e fontes | `styles.css`, bloco `:root` no topo |
@@ -22,3 +22,12 @@ Para receber por e-mail: Site configuration → Notifications → Form submissio
 ## Domínio
 
 DNS no cPanel: registo A `bala.pt` → `75.2.60.5` e CNAME `www` → `<nome-do-site>.netlify.app`. Não mexer em MX/TXT.
+
+## Publicar
+
+- **Recomendado:** ligar este repositório à Netlify (Add new site → Import from Git). Cada alteração enviada para `main` publica sozinha.
+- **Manual:** arrastar a pasta do site (ou o .zip) para Deploys na Netlify. Ativar Forms em Site configuration → Forms para o catering funcionar.
+
+## IA no futuro
+
+O site é estático, por isso um assistente de IA entra como uma Netlify Function (pasta `netlify/functions/`) que guarda a chave da API no servidor, em variáveis de ambiente da Netlify. A chave nunca vai no HTML nem no JS.
