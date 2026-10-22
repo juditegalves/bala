@@ -7,8 +7,5 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-[[redirects]]
-  from = "https://www.bala.pt/*"
-  to = "https://bala.pt/:splat"
-  status = 301
-  force = true
+# O redireccionamento entre bala.pt e www.bala.pt é feito pela Netlify
+# (Domain management → domínio principal). Não duplicar aqui para não criar um ciclo.
