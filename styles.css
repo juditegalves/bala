@@ -306,3 +306,4 @@ p { margin: 0 0 1em; max-width: 62ch; }
   .dish:not(.dish-lead) { grid-template-columns: 1fr; }
   .dish:not(.dish-lead) .ph { grid-row: auto; aspect-ratio: 4 / 3; margin-bottom: 16px; }
 }
+.zone-takeaway { background: var(--turquesa-soft); }

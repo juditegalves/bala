@@ -17,7 +17,8 @@ if (nav && toggle) {
 // Botões sem link ainda (ex.: Uber Eats Cascais com href="#uber-cascais").
 // Mostram o texto de data-soon e não fazem nada até o link real ser colado no HTML.
 document.querySelectorAll('a[data-soon]').forEach((btn) => {
-  if (btn.getAttribute('href').startsWith('#uber-')) {
+  const href = btn.getAttribute('href');
+  if (href.startsWith('#uber-') || href.startsWith('#soon-')) {
     btn.textContent = btn.dataset.soon;
     btn.setAttribute('aria-disabled', 'true');
     btn.removeAttribute('target');
