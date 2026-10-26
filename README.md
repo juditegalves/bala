@@ -12,6 +12,7 @@ Site do Bala: uma página estática (HTML + CSS + JS), publicada na Netlify a pa
 | Fotos | `assets/fotos/` (hero, burritos, tacos, bowls, snacks, ingredientes, cozinha, catering). Para trocar, substituir o ficheiro com o mesmo nome (JPG, até ~1600px de largura). Imagem de partilha: `assets/og.jpg` (1200×630) |
 | Vídeo do hero | `index.html`, bloco comentado dentro de `.hero-media` |
 | Logotipo | `assets/logo-bala.svg` (vermelho), `assets/logo-bala-branco.svg` (rodapé), `assets/logo-bala-selo.svg` (selo completo, não usado no site) |
+| Marcas do grupo (rodapé) | `index.html`, bloco `.grupo`. Logótipos a branco em `assets/grupo-*.svg`. Os links do Bala e do Stella apontam para os endereços .netlify.app até os domínios estarem ligados. |
 | Cores e fontes | `styles.css`, bloco `:root` no topo |
 | Faixa de novidades | `index.html`, bloco `.news` |
 
