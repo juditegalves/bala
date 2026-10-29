@@ -6,9 +6,8 @@ Site do Bala: uma página estática (HTML + CSS + JS), publicada na Netlify a pa
 
 | O quê | Onde |
 | --- | --- |
-| Link Uber Eats Cascais | `index.html`, procurar `#uber-cascais` e colar o link da loja. |
 | Take away Amoreiras | `index.html`, procurar `#soon-amoreiras` e trocar pelo link do Google Maps que está no comentário ao lado. |
-| Horários | `index.html`, procurar `horário a confirmar` (Alvalade e Cascais) |
+| Horários | `index.html`, procurar `horário a confirmar` (Alvalade e Amoreiras) |
 | Fotos | `assets/fotos/` (hero, burritos, tacos, bowls, snacks, ingredientes, cozinha, catering). Para trocar, substituir o ficheiro com o mesmo nome (JPG, até ~1600px de largura). Imagem de partilha: `assets/og.jpg` (1200×630) |
 | Vídeo do hero | `index.html`, bloco comentado dentro de `.hero-media` |
 | Logotipo | `assets/logo-bala.svg` (vermelho), `assets/logo-bala-branco.svg` (rodapé), `assets/logo-bala-selo.svg` (selo completo, não usado no site) |
